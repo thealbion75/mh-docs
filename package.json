@@ -4,11 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "fumadocs-mdx"
+    "dev": "next dev",
+    "start": "next start"
   },
   "dependencies": {
     "fumadocs-core": "15.7.8",

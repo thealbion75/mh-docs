@@ -4,15 +4,14 @@ const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
 const config = {
-  reactStrictMode: true,
-  trailingSlash: true,
   output: 'export',
-  distDir: 'out',
+  trailingSlash: true,
   images: {
     unoptimized: true
   },
+  // Disable server-side features for static export
   experimental: {
-    mdxRs: false
+    // Remove if not needed
   }
 };
 

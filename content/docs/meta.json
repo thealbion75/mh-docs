@@ -1,4 +1,23 @@
 {
-  "title": "Documentation",
-  "pages": ["index", "getting-started"]
+  "title": "MH Documentation",
+  "pages": [
+    "index",
+    {
+      "title": "Working Environment",
+      "pages": ["working-environment"]
+    },
+    {
+      "title": "Projects",
+      "pages": [
+        "project-a",
+        "project-b",
+        "project-c",
+        "project-d"
+      ]
+    },
+    {
+      "title": "Templates & Standards",
+      "pages": ["templates"]
+    }
+  ]
 }
